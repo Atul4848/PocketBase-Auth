@@ -14,31 +14,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Setup Instructions
 Clone the Repository: If you haven't already, clone the project repository.
 
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone https://github.com/Atul4848/PocketBase-Auth.git
+cd PocketBase-Auth
 
 
-## Install Dependencies: Run the following command in your terminal to install all the required packages, including react-router-dom, pocketbase, and tailwindcss.
+## Install Dependencies
 
-npm install
-
-
-## Configure PocketBase:
-
-Ensure your PocketBase server is running.
-
-Update the PocketBase URL in your src/context/AuthContext.tsx file to point to your instance.
-
-Run the Application: Start the development server.
+npm install or yarn
 
 ## npm start
 
-
 The application will be available at http://localhost:3000 by default.
 
-## Assumptions & Issues
-PocketBase: This application assumes you have a PocketBase instance running and a users collection configured with standard fields (email, password, username, name).
-
-## API Calls: All authentication logic is handled within src/context/AuthContext.tsx using the PocketBase SDK.
-
-User Experience: For simplicity, the application uses a JavaScript alert() for success and failure messages. For a production-level application, it is recommended to replace this with a custom modal or toast notification to provide a better user experien
